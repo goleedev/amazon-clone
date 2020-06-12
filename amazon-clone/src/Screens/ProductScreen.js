@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data";
-import { Link } from "react-router-dom/cjs/react-router-dom";
+import { Link } from "react-router-dom";
 
 function ProductScreen(props) {
   console.log(props.match.params.id);
